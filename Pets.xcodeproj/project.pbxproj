@@ -11,6 +11,8 @@
 		13547DCD2107A1A600DEC609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13547DCB2107A1A600DEC609 /* Main.storyboard */; };
 		13547DCF2107A1A600DEC609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13547DCE2107A1A600DEC609 /* Assets.xcassets */; };
 		13547DD22107A1A600DEC609 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13547DD02107A1A600DEC609 /* LaunchScreen.storyboard */; };
+		13547DDA2107A5A000DEC609 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13547DD92107A5A000DEC609 /* TableViewController.swift */; };
+		13547DDC2107A7F800DEC609 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13547DDB2107A7F800DEC609 /* Pet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		13547DCE2107A1A600DEC609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13547DD12107A1A600DEC609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13547DD32107A1A600DEC609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13547DD92107A5A000DEC609 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		13547DDB2107A7F800DEC609 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				13547DCE2107A1A600DEC609 /* Assets.xcassets */,
 				13547DD02107A1A600DEC609 /* LaunchScreen.storyboard */,
 				13547DD32107A1A600DEC609 /* Info.plist */,
+				13547DD92107A5A000DEC609 /* TableViewController.swift */,
+				13547DDB2107A7F800DEC609 /* Pet.swift */,
 			);
 			path = Pets;
 			sourceTree = "<group>";
@@ -132,7 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13547DDC2107A7F800DEC609 /* Pet.swift in Sources */,
 				13547DC82107A1A600DEC609 /* AppDelegate.swift in Sources */,
+				13547DDA2107A5A000DEC609 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
